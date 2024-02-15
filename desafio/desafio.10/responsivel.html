@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de respansividade</title>
+    <style>
+        
+        @font-face {
+            font-family: New York city;
+            src: url(fontes/new_york_city/Newyorkcity.ttf);
+            
+        }
+
+        :root{
+            --fonte-newyorkcity: 'New York city';
+        }
+        
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            max-width: 1000px;
+            min-width: 320px;
+            margin: center;
+            
+        }
+
+        h1{
+            font-family: var(--fonte-newyorkcity);
+            font-size: 10em;
+        }
+
+        img{
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body >
+    <main>
+        <h1>Testando respansividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dicta voluptatum optio. Optio voluptas soluta dolor placeat quaerat. Ad, nihil asperiores. Explicabo placeat ab aperiam doloremque tempora possimus, accusantium consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident qui hic quas nostrum! Similique tempore veritatis nisi aperiam iste. Ipsum numquam laborum commodi, sequi obcaecati alias soluta dolorum quidem amet?</p>
+       <picture>
+        <source media="(max-width: 800px)" srcset="imagens/sex-and-the-city-reboot1.png">
+        <img src="imagens/sex-and-the-city-reboot1.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat delectus iure magnam incidunt, quas ut excepturi nulla maxime sapiente minima itaque facilis, exercitationem eveniet id harum illum vero obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus alias iure, dolores cum omnis, temporibus eos voluptatem rerum nesciunt, nobis quisquam in soluta earum vitae fuga excepturi cupiditate debitis deserunt!</p>
+    </picture>
+    </main>
+</body>
+</html>
