@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #F29BDB;
+    --cor1: #ED4C93;
+    --cor2: #FFE9D1;
+    --cor3: #E79A9A;
+    --cor4: #FAD6E2;
+    --cor5: #49192e;
+
+}
+
+body{
+    background-color: #F29BDB;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
