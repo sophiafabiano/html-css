@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgb(185, 182, 182);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(175, 175, 175);
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0%;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Meu site</h1>
+        <nav style="text-align: right;">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia
+            </p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o peido</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sint commodi sequi incidunt neque natus! Sequi iusto eius ipsum dicta deleniti. Earum voluptate magnam autem tempore, est accusamus fuga deleniti.</p>
+                <aside>
+                    <p>Artigo escrito por Sophia Fabiano</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pela Sophia Fabiano</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
